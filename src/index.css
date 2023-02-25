@@ -1,0 +1,20 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Andika", sans-serif;
+  color:white
+}
+
+body {
+  background-color:#191970;
+  padding: 2rem;
+}
+
+p { 
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
