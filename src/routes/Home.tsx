@@ -1,8 +1,11 @@
-import React from 'react'
+import Search from "../components/Search.tsx"
+
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+    <Search/>
+    </div>
   )
 }
 
