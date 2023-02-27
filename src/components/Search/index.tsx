@@ -5,7 +5,7 @@ import {BsSearch} from 'react-icons/bs'
 import { useState, KeyboardEvent } from "react"
 import style from './style.module.css'
 
-const Search = ({loadUser}:SearchProps) => {
+export const Search = ({loadUser}:SearchProps) => {
     const [userName , setUserName] = useState('')
     const handleKeyDown = (e:KeyboardEvent) => {
         if (e.key === "Enter"){
@@ -30,4 +30,3 @@ const Search = ({loadUser}:SearchProps) => {
   )
 }
 
-export default Search;
