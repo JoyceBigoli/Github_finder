@@ -3,11 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Andika", sans-serif;
-  color:white
+  color:black;
 }
 
 body {
-  background-color:#191970;
+  background-color: #5d1d5d;
   padding: 2rem;
 }
 
